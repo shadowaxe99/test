@@ -1,0 +1,245 @@
+/* frontend/src/styles.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dashboard-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-menu-item {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.dashboard-menu-item:hover {
+  background-color: #bdbdbd;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+.dashboard-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-widget {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-widget-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-widget-content {
+  font-size: 14px;
+}
+
+.dashboard-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-search-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  margin-right: 10px;
+}
+
+.dashboard-profile {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-profile-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-profile-content {
+  font-size: 14px;
+}
+
+.dashboard-support {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-support-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-support-content {
+  font-size: 14px;
+}
+
+.dashboard-responsive {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-responsive-item {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.dashboard-responsive-item:hover {
+  background-color: #bdbdbd;
+}
+
+.dashboard-updates {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-updates-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-updates-content {
+  font-size: 14px;
+}
+
+.dashboard-progress {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-progress-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-progress-content {
+  font-size: 14px;
+}
+
+.dashboard-language {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-language-item {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.dashboard-language-item:hover {
+  background-color: #bdbdbd;
+}
+
+.dashboard-collaboration {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-collaboration-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-collaboration-content {
+  font-size: 14px;
+}
+
+.dashboard-onboarding {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-onboarding-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-onboarding-content {
+  font-size: 14px;
+}
+
+.dashboard-accessibility {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-accessibility-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-accessibility-content {
+  font-size: 14px;
+}
