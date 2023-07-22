@@ -1,0 +1,43 @@
+# .gitignore
+
+# Node.js
+node_modules/
+
+# Build
+build/
+
+# Backend
+backend/node_modules/
+
+# Frontend
+frontend/node_modules/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+
+# Compiled files
+*.min.js
+*.min.css
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore generated code
+frontend/src/generated/
+backend/src/generated/
