@@ -1,5 +1,3 @@
-backend/utils/swagger.js:
-```javascript
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
@@ -25,6 +23,3 @@ const specs = swaggerJsdoc(options);
 module.exports = (app) => {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 };
-```
-
-Remember to only return the code for the specified file.

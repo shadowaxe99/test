@@ -8,4 +8,6 @@ describe('Frontend Tests', () => {
     expect(res.status).to.equal(200);
     expect(res.body.message).to.equal('Hello, frontend!');
   });
+
+  // Add more tests as needed
 });

@@ -1,5 +1,3 @@
-backend/config/database.js:
-```javascript
 const mongoose = require('mongoose');
 
 const connectDatabase = async () => {
@@ -17,4 +15,3 @@ const connectDatabase = async () => {
 };
 
 module.exports = connectDatabase;
-```

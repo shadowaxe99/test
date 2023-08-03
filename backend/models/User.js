@@ -1,5 +1,3 @@
-backend/models/User.js:
-```javascript
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
@@ -26,6 +24,3 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
-```
-
-Note: This code assumes that you have already installed and imported the necessary dependencies, such as `mongoose`.

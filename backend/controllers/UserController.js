@@ -1,4 +1,3 @@
-```javascript
 const User = require('../models/User');
 
 const UserController = {
@@ -50,4 +49,3 @@ const UserController = {
 };
 
 module.exports = UserController;
-```

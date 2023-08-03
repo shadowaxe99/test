@@ -1,4 +1,3 @@
-```javascript
 const AIAgent = require('../models/AIAgent');
 
 // Controller for handling AI agent operations
@@ -73,4 +72,3 @@ const AIAgentController = {
 };
 
 module.exports = AIAgentController;
-```

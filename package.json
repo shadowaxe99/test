@@ -1,0 +1,19 @@
+{
+  "name": "CHAT2EXPLODE",
+  "version": "1.0.0",
+  "description": "CHAT2EXPLODE Program",
+  "main": "gui.py",
+  "scripts": {
+    "start": "python gui.py"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tkinter": "^8.6"
+  },
+  "keywords": [
+    "chat",
+    "gui",
+    "interactive"
+  ]
+}

@@ -1,4 +1,3 @@
-```javascript
 const mongoose = require('mongoose');
 
 const AIAgentSchema = new mongoose.Schema({
@@ -47,4 +46,3 @@ const AIAgentSchema = new mongoose.Schema({
 const AIAgent = mongoose.model('AIAgent', AIAgentSchema);
 
 module.exports = AIAgent;
-```
